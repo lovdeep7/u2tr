@@ -1,0 +1,81 @@
+@import url(animate.css);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
+@import url('https://fonts.googleapis.com/css?family=Bitter|Cabin|Hind|Muli|Oxygen|Poppins');
+
+html,
+body {
+    overflow-x: hidden;
+    height: 100%;
+}
+
+@font-face {
+    font-family: Code;
+    src: url(/fonts/code/CODE\ Bold.otf);
+}
+
+@font-face {
+    font-family: Gidole;
+    src: url(/fonts/Gidole-Regular.ttf);
+}
+
+.title {
+    font-family: Cabin;
+}
+
+.element {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+*
+{
+    font-family: Muli;
+    color: #1F121
+}
+
+h1
+{
+    margin:0;
+}
+
+@-webkit-keyframes rotate {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to { 
+        -webkit-transform: rotate(360deg);
+    }
+}
+#loading {
+    border: 1px solid #000;
+    border-right: 0;
+    border-bottom: 0;
+    -webkit-border-radius: 100px;
+    height: 100px;
+    width: 100px;
+    margin: 100px;
+    -webkit-transition: all 0.5s ease-in;
+    -webkit-animation-name:             rotate; 
+    -webkit-animation-duration:         1.0s; 
+    -webkit-animation-iteration-count:  infinite;
+    -webkit-animation-timing-function: linear;
+}
+
+.container
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+nav {
+    background: black;
+    box-shadow: none;
+    padding-left: 10%;
+    padding-right: 10%
+}
+
+.main {
+    height: 75%;
+    color: #FFF
+}

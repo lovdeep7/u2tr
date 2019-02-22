@@ -1,0 +1,310 @@
+<html>
+
+<head>
+    <title>CounteractIO</title>
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+    <link rel="stylesheet" href="/css/index.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/WOW.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.4/Chart.bundle.min.js"></script>
+    <script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="js/main.js"></script>
+    <script type="text/javascript">
+    new WOW().init();
+    </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+    <meta name="Author" content="Andy Kamath" />
+    <meta property="og:title" content="CounteractIO" />
+    <meta property="og:description" content="ML for Biotechnology" />
+    <meta property="og:url" content="http://www.counteract.io/" />
+    <meta property="og:image" content="https://scontent-yyz1-1.xx.fbcdn.net/v/t1.0-9/13439230_1097528203660200_504325191947307095_n.png?oh=db3d761bad07113b0bc187ace0590bde&oe=580866DB" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="CounteractIO" />
+    <!-- Opera Speed Dial Favicon -->
+    <link rel="icon" type="image/png" href="img/logo.png" />
+    <!-- Standard Favicon -->
+    <link rel="icon" type="image/x-icon" href="img/logo.png" />
+    <!-- For iPhone 4 Retina display: -->
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/logo.png">
+    <!-- For iPad: -->
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/logo.png">
+    <!-- For iPhone: -->
+    <link rel="apple-touch-icon-precomposed" href="img/logo.png">
+</head>
+
+<body>
+    <div class="main" style="background: url(img/bg1.jpg);background-size: cover;background-position: center center">
+        <div style="height: 100%;width: 100%;background: rgba(0, 0, 0, 0.7)">
+            <div class="navbar-fixed" style="position: fixed">
+                <nav style="position: fixed">
+                    <div class="nav-wrapper">
+                        <a href="#!" class="brand-logo title">CounteractIO</a>
+                        <ul class="right hide-on-med-and-down">
+                            <li><a href="sass.html">Sass</a></li>
+                            <li><a href="badges.html">Components</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="element">
+                <div class="row" style="height: 100%">
+                    <div class="col m7" align="center" style="height: 100%">
+                        <div class="element wow fadeIn">
+                            <div class="container">
+                                <h4>Colon Cancer Detection <b>at your fingertips</b></h4>
+                                <h5>Straightforward, noninvasive AI to diagnose colorectal cancer</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col m5 hide-on-small-only" style="height: 100%">
+                        <div id="particles-js" style="height: 100%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="theprocess">
+        <div class="container" align="center">
+            <h3 class="wow fadeInUp">The Process</h3>
+            <div class="row">
+                <div class="col m4 wow fadeIn">
+                    <h2><i class="fa fa-list-ul"></i></h2>
+                    <h4>Fill in the Blanks</h4>
+                    <p>Our prescreening methodology asks for extremely broad information. How old are you? What's your height/weight? Are you diabetic?</p>
+                </div>
+                <div class="col m4 wow fadeIn" data-wow-delay="250ms">
+                    <h2><i class="fa fa-bar-chart"></i></h2>
+                    <h4>Get Results</h4>
+                    <p>We give you the probabilities of you having cancer, an adenoma, and nothing at all, along with predictions of the stage of cancer.</p>
+                </div>
+                <div class="col m4 wow fadeIn" data-wow-delay="500ms">
+                    <h2><i class="fa fa-check"></i></h2>
+                    <h4>Interpret Resuls</h4>
+                    <p>Rather than giving you a rather binary diagnosis, CounteractIO displays likelihood of each potentiala possibility.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="theteam">
+        <div class="container">
+            <center><h3>The Team</h3></center>
+        </div>
+    </div>
+    <div style="height: 500%"></div>
+    <script type="text/javascript">
+    /*var ctx = document.getElementById("type");
+            var myChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: ["Nothing", "Adenoma", "Cancer"],
+                    datasets: [{
+                        label: 'Percent Chance',
+                        data: [40, 25, 35],
+                        backgroundColor: [
+                            'rgba(255, 99, 132, 0.2)',
+                            'rgba(54, 162, 235, 0.2)',
+                            'rgba(255, 206, 86, 0.2)',
+                            'rgba(75, 192, 192, 0.2)',
+                            'rgba(153, 102, 255, 0.2)',
+                            'rgba(255, 159, 64, 0.2)'
+                        ],
+                        borderColor: [
+                            'rgba(255,99,132,1)',
+                            'rgba(54, 162, 235, 1)',
+                            'rgba(255, 206, 86, 1)',
+                            'rgba(75, 192, 192, 1)',
+                            'rgba(153, 102, 255, 1)',
+                            'rgba(255, 159, 64, 1)'
+                        ],
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    legend: {
+                        labels: {
+                            fontColor: "white"
+                        }
+                    },
+                    scales: {
+                        yAxes: [{
+                            ticks: {
+                                beginAtZero: true,
+                                fontColor: 'transparent'
+                            }
+                        }],
+                        xAxes: [{
+                            ticks: {
+                                fontColor: 'white'
+                            }
+                        }]
+                    },
+                    title: {
+                        display: true,
+                        text: 'Type of Condition',
+                        fontSize: 20,
+                        fontColor: 'white'
+                    },
+                }
+            });*/
+
+    particlesJS("particles-js", {
+        "particles": {
+            "number": {
+                "value": 250,
+                "density": {
+                    "enable": true
+                },
+
+            },
+            "color": {
+                "value": ["#fff"]
+            },
+            "opacity": {
+                "value": 1,
+                "random": false,
+                "anim": {
+                    "enable": true,
+                    "speed": 1,
+                    "opacity_min": 1,
+                    "sync": false
+                }
+            },
+            "shape": {
+                "type": "circle"
+            },
+            "size": {
+                "value": 2.5,
+                "random": true
+            },
+            "line_linked": {
+                "enable": true
+            },
+            "move": {
+                "enable": true,
+                "speed": 2,
+                "random": true,
+                "direction": "none",
+                "straight": false
+            }
+        },
+        "interactivity": {
+            "detect_on": "canvas",
+            "events": {
+                "onhover": {
+                    "enable": true
+                }
+            },
+            "modes": {
+                "push": {
+                    "particles_nb": 1
+                }
+            }
+        }
+    });
+
+    /*
+    particlesJS("particles-js", {
+      "particles": {
+        "number": {
+          "value": 100,
+          "density": {
+            "enable": true,
+            "value_area":1000
+          }
+        },
+        "color": {
+          "value": ["#aa73ff", "#f8c210", "#83d238", "#33b1f8"]
+        },
+        
+        "shape": {
+          "type": "circle",
+          "stroke": {
+            "width": 0,
+            "color": "#fff"
+          },
+          "polygon": {
+            "nb_sides": 5
+          },
+          "image": {
+            "src": "img/github.svg",
+            "width": 100,
+            "height": 100
+          }
+        },
+        "opacity": {
+          "value": 0.6,
+          "random": false,
+          "anim": {
+            "enable": false,
+            "speed": 1,
+            "opacity_min": 0.1,
+            "sync": false
+          }
+        },
+        "size": {
+          "value": 2,
+          "random": true,
+          "anim": {
+            "enable": false,
+            "speed": 40,
+            "size_min": 0.1,
+            "sync": false
+          }
+        },
+        "line_linked": {
+          "enable": true,
+          "distance": 120,
+          "color": "#ffffff",
+          "opacity": 0.4,
+          "width": 1
+        },
+      },
+      "interactivity": {
+        "detect_on": "canvas",
+        "events": {
+          "onhover": {
+            "enable": true,
+            "mode": "grab"
+          },
+          "onclick": {
+            "enable": false
+          },
+          "resize": true
+        },
+        "modes": {
+          "grab": {
+            "distance": 140,
+            "line_linked": {
+              "opacity": 1
+            }
+          },
+          "bubble": {
+            "distance": 400,
+            "size": 40,
+            "duration": 2,
+            "opacity": 8,
+            "speed": 3
+          },
+          "repulse": {
+            "distance": 200,
+            "duration": 0.4
+          },
+          "push": {
+            "particles_nb": 4
+          },
+          "remove": {
+            "particles_nb": 2
+          }
+        }
+      },
+      "retina_detect": true
+    });
+    */
+    </script>
+</body>
+
+</html>

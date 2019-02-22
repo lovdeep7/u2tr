@@ -1,0 +1,16 @@
+<head>
+    <title>u2tr</title>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    {{>main}}
+</body>
+<template name="main">
+    <div class="entirety">
+        {{#if currentUser}} {{> home}} {{else}} {{> signinup}} {{/if}}
+    </div>
+    <script type="text/javascript">
+    $(".entirety").css('height', $(window).height())
+    </script>
+</template>
